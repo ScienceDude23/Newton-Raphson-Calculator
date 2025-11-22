@@ -2,7 +2,7 @@ import sympy
 import time
 import sys
 
-n = input('How many variables? This includes lambda if using Lagrange multipliers: ')
+n = input('How many variables? ')
 
 if n == '3':
     x1, x2, x3 = sympy.symbols('x1 x2 x3')
